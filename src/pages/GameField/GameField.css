@@ -1,0 +1,80 @@
+.game-field {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.game-info {
+   text-align: center;
+   font-size: 20px;
+   color: #000;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   margin-bottom: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.game-info__item {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   border-radius: 10px;
+   padding: 0 5px;
+
+}
+
+.stopwatch {
+   color: #ba6b80;
+}
+
+.moves {
+   color: #5073bf;
+}
+
+.moves {
+   border: 2px solid #5073bf;
+}
+
+.stopwatch {
+   border: 2px solid #ba6b80;
+}
+
+.game-info__content {
+   width: 70px;
+   font-size: 30px;
+}
+
+.game-field__back-btn {
+   font-size: 20px;
+   border-radius: 10px;
+   margin-bottom: 0 !important;
+}
+
+.game-field__content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 13px;
+}
+
+.game-info__stats {
+   display: flex;
+   gap: 10px;
+}
+
+@media (max-width: 443px) {
+   .game-info__content {
+      font-size: 18px;
+   }
+
+   .game-field__content {
+      gap: 8px;
+   }
+
+   .game-info__content {
+      width: 50px;
+   }
+}
